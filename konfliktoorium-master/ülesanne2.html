@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ülesanne 2</title>
+    <style type="text/css">
+        body {
+            background-color: rgb(52, 52, 52);
+            color: rgb(0, 179, 255);
+            font-family: "Comic Sans MS";
+        }
+
+        a {
+            color: rgb(195, 255, 0);
+            text-decoration: none;
+        }
+
+        git h1 {
+            background-color: rgb(52, 52, 52);
+            color: rgb(255, 0, 170);
+            font-family: "Comic Sans MS";
+        }
+
+        .separator {
+            background-color: rgb(152, 152, 152) !important;
+            color: rgb(145, 39, 39);
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .separator h1 {
+            background-color: rgb(152, 152, 152) !important;
+            color: rgb(145, 39, 39);
+            font-family: sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<br>
+<p>
+<h1>Ülesanne 2</h1>
+<br>
+Sellele lehele, igaüks kes ennast kirja on pannud, kirjutab ühe lehe sektsiooni </br>
+oma lemmikust tarkvaraarendusvahendist. See vahend võib olla programm, äpp, tööriist, </br>
+programmeerimiskeel, arendusmetoodika, jne xkm. Mida selle vahendi kohta kirjutada:</br>
+<ul>
+    <li>Vahendi nimi</li>
+    <li>Vahendi tüüp</li>
+    <li>Platvorm, väljalaskeaeg,</li>
+    <li>Paragrahv mis räägib mis on selle vahendi eesmärk</li>
+    <li>Paragrahv mis tutvustab vahendi võimalusi</li>
+    <li>Tabel kus on selle vahendi kasuks ja vastu rääkivad argumendid</li>
+    <li>Salespitch miks just *lugeja* seda kasutama peaks</li>
+    <li>Näide mida õpilane selle vahendiga teinud on</li>
+    <li>Sektsioon linkidega kus vahendiga seotud abimaterjalid/info/õppematgerjalid/tutorialid/jms</li>
+    <li>Embeddi vastav video vahendi kasutusest</li>
+    <li>KASUTADA LEHE SEKTSIOONIDE ERALDAMISEKS ALLJÄRGNEVAT ERALDAJAT</li>
+    <li>Väljaspool separatorit tuleb oma stiili kasutada, separatorile uut stiili juurde panna ei tohi.</li>
+    <li>Eelnevatest töödest copypaste teha ei tohi</li>
+    <li>Kellegi teisega samat tööriista valida ei saa</li>
+</ul>
+</p>
+<div class="separator">
+    <p>
+    <h1>EESNIMI PEREKONNANIMI</h1>
+    Tarkvaravahendi nimetus || Tootja/Arendaja || Versioon
+    </p>
+</div>
+
+<link rel="stylesheet" href="nirgi.css">
+
+<div class="separator">
+    <p>
+    <h1 id="separator">MARCUS NIRGI</h1>
+    Visual Studio Code || Microsoft || 1.88
+    </p>
+</div>
+
+<section class="vscode-section">
+    <div
+        style="display: flex; flex-direction: row; gap: 2rem; align-content: center; text-align: center; align-items: center; background-color: rgb(0, 174, 255); padding: 0 1rem;">
+        <img style="width: 100px; height: auto;"
+            src="https://cdn.freebiesupply.com/logos/large/2x/visual-studio-code-logo-png-transparent.png">
+        <h1>Visual Studio Code</h1>
+    </div>
+    <strong>IDE</strong>
+
+    <div style="display: flex; flex-direction: column; gap: 2px;">
+        <label><strong>Platvorm: </strong>PC</label>
+        <label><strong>Väljalaskeaeg: </strong>April 29, 2015</label>
+    </div>
+
+    <h1>Mis see on?</h1>
+    <p style="text-wrap: pretty;">
+        Visual Studio Code on kerge, kuid võimas lähtekoodiredaktor, mis töötab teie töölaual ja on saadaval Windowsi,
+        macOS-i ja Linuxi jaoks. Sellel on sisseehitatud JavaScripti, TypeScripti ja Node.js-i tugi ning sellel on
+        rikkalik laienduste ökosüsteem muude keelte ja käitustingimuste jaoks (nt C++, C#, Java, Python, PHP, Go, .NET).
+    </p>
+
+    <h1>Mis on selle eesmark?</h1>
+    <p style="text-wrap: pretty;">
+        VS Code eesmärk on pakkuda just neid tööriistu, mida arendaja vajab kiireks koodi koostamise ja silumise
+        tsükliks ning jätab keerukamad töövood täiuslikumate IDE-dele, nagu Visual Studio IDE.
+    </p>
+
+    <h1>Mida pakub VS Code?</h1>
+    <ul class="features-list">
+        <li>Command Line</li>
+        <li>Command Pallette</li>
+        <li>Git Integration</li>
+        <li>Laiendused</li>
+        <li>Lihtsalt isikustatav</li>
+    </ul>
+
+    <h1>Kasud ja kahjud</h1>
+    <table class="procon-table">
+        <thead>
+            <th>+</th>
+            <th>-</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laiendatav</td>
+                <td>Kerge laadida prügilaiendusi</td>
+            </tr>
+            <tr>
+                <td>Kiirem kui Visual Studio</td>
+                <td>Aeglasem kui Notepad++ ja osad spetsiifilisemad editorid</td>
+            </tr>
+            <tr>
+                <td>Näeb ilus välja</td>
+                <td>Kasutab Electron-i</td>
+            </tr>
+            <tr>
+                <td>Väga lihtne minimaliseerida</td>
+                <td>Vaikimisi on liiga palju ebavajalikke seadeid sisse lülitatud</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <strong style="font-size: 1.5rem; margin-top: 3em; display: block; align-self: center;">Kasuta Visual Studio Code,
+        kui sulle meeldib panna oma koodiredaktorile omale sobilik stiil ja sulle ei meeldi, kui pool su ekraanist on
+        "accessibility" nuppe täis.</strong>
+
+    <h1>Kuidas mina seda kasutanud olen?</h1>
+    <p style="text-wrap: pretty; white-space: pre;">
+        Kasutan VS Code igapäevaselt, olgu see kodus mingite iseseisvate projektide arendamises või koolitööde juures.
+        Loen tekstifaile ka VS Code-is :D
+    </p>
+
+    <h1>Uuri ise isaks</h1>
+    <div style="display: flex; flex-direction: column; gap: 1em;">
+        <div style="display: flex; flex-direction: column;">
+            <label>VS Code koduleht</label>
+            <a href="https://code.visualstudio.com/">code.visualstudio.com</a>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <label>VS Code ja Python</label>
+            <a href="https://code.visualstudio.com/docs/python/python-tutorial">Getting Started with Python in VS
+                Code</a>
+        </div>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/phzQMwFXMEo?si=btVMQBSLwIXQJFQD"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</section>
+<div class="separator">
+    <p>
+    <h1>SIMON SASSIAN</h1>
+    Visual Studio || Microsoft || 1.88
+    </p>
+</div>
+
+<section class="simon-section">
+    <h2>Visual Studio</h2>
+    <ul>
+        <li>Vahendi nimi: Visual Studio - Simon Sassian</li>
+        <li>Vahendi tüüp: Integreeritud arenduskeskkond (IDE)</li>
+        <li>Platvorm: Windows. Väljalaskeaeg: 1997</li>
+        <li>Eesmärk: Visual Studio on terviklik tarkvaraarenduse tööriistakomplekt, mis võimaldab arendajatel luua
+            erinevaid rakendusi, sealhulgas veebi-, mobiili- ja pilvetarkvara.</li>
+        <li>Tutvustus: Visual Studio pakub laia valikut funktsioone, sealhulgas terviklikku integreeritud
+            arenduskeskkonda, koodiredaktorit, silumis- ja testimistööriistu ning meeskonnatöö funktsioone.</li>
+        <li>
+            Kasuks ja vastu:
+            <table>
+                <tr>
+                    <th>Kasuks</th>
+                    <th>Vastu</th>
+                </tr>
+                <tr>
+                    <td>Terviklik tugi mitme keele ja platvormi jaoks</td>
+                    <td>Aeglane ja ressursinõudlik</td>
+                </tr>
+                <tr>
+                    <td>Integreeritud arendus-, silumis- ja testimistööriistad</td>
+                    <td>Mõned funktsioonid võivad olla keerulised algajatele</td>
+                </tr>
+                <tr>
+                    <td>Meeskonnatöö funktsioonid ()</td>
+                    <td>Litsentsitasu võib olla kõrge</td>
+                </tr>
+            </table>
+        </li>
+        <li>Salespitch: Visual Studio pakub kõikehõlmavat lahendust tarkvaraarenduseks, mis võimaldab arendajatel
+            tõhusalt ja produktiivselt luua mitmesuguseid rakendusi igas suuruses ja keerukusastmes.</li>
+        <li>Näide: Näiteks võib õpilane kasutada Visual Studio't C# programmeerimiskeele ja ASP.NET raamistiku abil
+            veebirakenduse loomiseks ning seda integreerida Azure'iga pilvepõhise majutusteenuse kasutamiseks.</li>
+        <li>
+            Abimaterjalid:
+            <ul>
+                <li><a href="https://docs.microsoft.com/en-us/visualstudio/">Visual Studio dokumentatsioon</a></li>
+                <li><a href="https://marketplace.visualstudio.com/">Visual Studio Marketplace</a></li>
+                <li><a href="https://www.youtube.com/watch?v=VcU2HGsxeII">Visual Studio õppevideo</a></li>
+            </ul>
+        </li>
+        <li>Embeddi vastav video vahendi kasutusest: <iframe width="1280" height="720"
+                src="https://www.youtube.com/embed/VcU2HGsxeII" title="Visual Studio For Beginners - 2022 and Beyond"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+    </ul>
+</section>
+<section>
+    <h2>Press:React</h2>
+    <P>
+    <ul>
+        <li>Vahendi nimi</li>
+        <li>Vahendi tüüp</li>
+        <li>Platvorm, väljalaskeaeg,</li>
+        <li>Paragrahv mis räägib mis on selle vahendi eesmärk</li>
+        <li>Paragrahv mis tutvustab vahendi võimalusi</li>
+        <li>Tabel kus on selle vahendi kasuks ja vastu rääkivad argumendid</li>
+        <li>Salespitch miks just *lugeja* seda kasutama peaks</li>
+        <li>Näide mida õpilane selle vahendiga teinud on</li>
+        <li>Sektsioon linkidega kus vahendiga seotud abimaterjalid/info/õppematgerjalid/tutorialid/jms</li>
+        <li>Embeddi vastav video vahendi kasutusest</li>
+        <li>KASUTADA LEHE SEKTSIOONIDE ERALDAMISEKS ALLJÄRGNEVAT ERALDAJAT</li>
+        <li>Väljaspool separatorit tuleb oma stiili kasutada, separatorile uut stiili juurde panna ei tohi.</li>
+        <li>Eelnevatest töödest copypaste teha ei tohi</li>
+        <li>Kellegi teisega samat tööriista valida ei saa</li>
+    </ul>
+    </P>
+</section>
+
+<section class="Juht">
+    <div class="separator">
+        <p>
+        <h1>Kristjan Juht</h1>
+            Jquery || John Resig || 3.7.1
+        </p>
+    </div>
+    <link rel="stylesheet" href="Juht.css">
+
+
+    <h1 class="EpicJuhtTitle">jQuery</h1>
+    <!-- 177013 -->
+
+    <h3 style="text-align: center; font-family: 'Times New Roman', Times, serif;" >Lingid</h3>
+    <a href="https://jquery.com/" style="text-align: center; font-family: 'Times New Roman', Times, serif;">Jquery</a>
+
+    <ul class="tilesWrap">
+        <li>
+            <h2>∅1</h2>
+            <h3>Mis see on</h3>
+            <p>
+                jQuery on programmeerimiskeel mis keskendub javascripti
+                ja HTML-i vastastikusele mõjule. Microsoft ja Nokia 
+                paketivad Jquery oma platvormidel.
+                Kas aasta on 2008 ja sina tahad kasutada php-d, siis kõige
+                parim programmeerimis raamistik on JQuery. Tema kasutamine on
+                sujuv. JQuery on parim selle jaoks.
+            </p>
+        </li>
+        <li>
+            <h2>⁰2</h2>
+            <h3>Kasutus</h3>
+            <p>
+                Jqueryl on kaks tüüpiu funktsiooni,
+                 staatiline funktsioon ja JQuery lahtine meetod, Mõlemad on 
+                 kastutatud koos $ märgiga. Sellega saad kasutada css-i ja rohkem
+                 põhjalikult kasutada DOM elemente.
+                 Staatiline laseb ajax-i kasutust koos $.ajax().
+            </p>
+        </li>
+        <li>
+            <h2> ۟3</h2>
+            <h3>Title 3</h3>
+            <p>
+                See teeb programmeerimise kergemaks, suure teksti teksti hulga lühemaks, <br>
+                aga see ei lase tagasiühilduvust. Ehk see teeb töö protseesi keeruliseks, kui see
+                automaatselt uuendab.
+            </p>
+        </li>
+        <li>
+            <h2> Video</h2>
+            <p>
+                <iframe width="400" height="300" src="https://www.youtube.com/embed/UU-GebNqdbg" title="The Legend of jQuery in 100 Seconds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </p>
+        </li>
+    </ul>
+</section>
+
+<div class="separator">
+    <p>
+    <h1>Markus Väli</h1>
+    Postman || Postman Inc. || 10.24
+    </p>
+</div>
+<section class="Postman">
+    <link rel="stylesheet" href="vali.css">
+    <div>
+        <ul>
+            <li>Nimi: Postman</li> <br>
+            <li>Tüüp: API loomis- ja kasutamisetööriist</li> <br>
+            <li>Väljalaskmisaeg: 2012</li> <br>
+            <li>Platvormid: Windows, Mac, Linux</li> <br>
+            <li>Kirjeldus: Postman on API-platvorm API-de loomiseks ja kasutamiseks. See lihtsustab API loomist ja muudab koostöö sujuvamaks.</li> <br>
+            <li>Võimalused: Sellega on võimalik kogumi teha, see abistab organiseerimiseg. Siis on olemas tööruumid, millega saad jagada enda API-si ja rohkemgi</li> <br>
+            <table>
+                <tr>
+                    <th>
+                        Plussid
+                    </th>
+                    <th>
+                        Miinused
+                    </th>
+                </tr>
+                <tr>
+                    <td>Suur kooslus</td>
+                    <td>Võimalikult kehv suuremate projektide eest</td>
+                </tr>
+                <tr>
+                    <td>Lihtne ja arusaadav kasutajaliides</td>
+                    <td>Dokumentatsioon ei ole parim</td>
+                </tr>
+            </table> <br>
+            <li>Salespitch: See on üks parimatest API tööriistadest, mis lubab lihtsamini luua API-si ja seda ka kiirelt kasutada</li> <br>
+            <li>Õpilaselt: CRUD operatsioonide läbiviimine</li> <br> 
+            <li><a href=https://learning.postman.com/docs/introduction/overview target="_blank">Postman Dokumentatsioon</a></li> <br>
+            <iframe width="1080" height="720" src="https://www.youtube.com/embed/CLG0ha_a0q8" title="Postman API Testing Tutorial | Postman Tutorial For Beginners 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </ul>
+    </div>
+</section>
+
+<link rel="stylesheet" href="rasmus.css">
+
+<div class="separator">
+    <p>
+    <h1 id="separator">Rasmus Kasemaa</h1>
+    Scratch || MIT Media Lab || 3.0
+    </p>
+</div>
+<div
+    style="border: 4px solid #555454; padding: 10px; width: 800px; background-color: #808181; color: rgb(0, 0, 0); border-radius: 16px;">
+    <div class="Scratch">
+        <ul>
+            <li>Scratch</li>
+            <li>N/A</li>
+            <li>PC, 11 October 2003</li>
+            <li>Scratch on visuaalne programmeerimiskeel, mis võimaldab õpilastel luua oma interaktiivseid lugusid,
+                mänge ja animatsioone. Kui õpilased Scratchi projekte kavandavad, õpivad nad loovalt mõtlema,
+                süsteemselt arutlema ja koostööd tegema.</li>
+            <li>Scratchiga saate programmeerida oma interaktiivseid lugusid, mänge ja animatsioone ning jagada oma
+                loomingut teistega võrgukogukonnas.</li>
+            <br>
+            <table>
+                <tr>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                </tr>
+                <tr>
+                    <td>Scratchil on hõlpsasti mõistetav liides.</td>
+                    <td>3D-projektide loomiseks pole võimalust.</td>
+                </tr>
+                <tr>
+                    <td>Scratchi õppimine soodustab loogilist mõtlemist</td>
+                    <td>Kasutajad saavad teie projekte remiksida ja teie projekti eest tunnustust võtta.</td>
+                </tr>
+            </table>
+            <br>
+            <li>Scratch on maailma suurim koodimise kogukond lastele ja koodimise keel lihtsa visuaalse disainiga mis
+                lubab noortel inimestel luua digitaalseid lugusid, mänge ja animatsioone. cratch edendab arvutusliku
+                mõtlemise ja probleemi lahendus oskuse; loov õpetamine ja õppimine; eneseväljendus ja koostöö; ja oskuse
+                arvutis.</li>
+            <img src="https://external-preview.redd.it/my-greatest-scratch-project-so-far-v0-7PWWZoNVz-LDlqWe2XSgO9IqvNBDug4N3E4gxxwvebw.png?format=pjpg&auto=webp&s=7437444a5863a013c9c07dccfe78b2b40e409920" width="700" height="400">
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/zOa5o9Yq_ZU?si=ao216T1ZIte9HAva" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>              
+        </ul>
+    </div>
+</div>
+
+
+<div class="separator">
+    <p>
+        <h1>INGMAR HENDRIK ROHUSAAR</h1>
+        Typescript || Microsoft || 5.4.2
+    </p>
+</div>
+<link rel="stylesheet" href="ingmar.css">
+<div class="typescript-content">
+    <p class="typescript-title">Typescript</p>
+    <div class="typescript-header">
+        <img style="width: 500px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" alt="Typescript logo">
+        <div class="typescript-header-info">
+            <p><b>Tüüp:</b> Programmeerimiskeel</p>
+            <p><b>Väljalaskeaeg:</b> 1.oktoober 2012</p>
+            <p><b>Arendaja: </b>Microsoft Corporation</p>
+            <p><b>Failinime laiendid: </b>.ts, .tsx, .mts, .cts</p>
+            <p><b>Veebsait: </b>www.typescriptlang.org</p>
+            <p>
+                <b>Eesmärk: </b>
+                TypeScripti eesmärk on olla JavaScripti programmide staatiline tüübikontroll – teisisõnu tööriist, mis töötab enne teie koodi käivitamist ja tagab, et programmitüübid on õiged <em>(typechecked)</em>.
+            </p>
+        </div>
+    </div>
+    <div class="typescript-body">
+
+        <p class="typescript-body-text-title"><b>Millal kasutada Typescript'i?</b></p>
+        <div class="typescript-body-text">
+            <p><b>1. Suurte projektide puhul</b></p>
+            <p>Typescript on eriti kasulik suurte koodibaaside haldamisel. Tüüpide süsteem aitab vältida vigu, mis võivad tekkida keerukate andmestruktuuride ja funktsioonidega töötamisel.</p>
+
+            <p><b>2. Meeskonnas</b></p>
+            <p>Kui töötad meeskonnas, aitab Typescript tagada, et kõik mõistavad, kuidas koodi tuleks kasutada. See on eriti kasulik, kui meeskonnaliikmed töötavad erinevates tsoonides või kui tiimiliikmed pidevalt vahetuvad.</p>
+        
+            <p><b>3. Tööriistade tugi</b></p>
+            <p>Paljud populaarsed JavaScripti tööriistad ja raamistikud <em>(näiteks Angular, Vue.js, React)</em> toetavad Typescripti, mis võib muuta teie koodi kirjutamise lihtsamaks ja tõhusamaks.</p>
+        </div>
+
+        <div class="typescript-pros-cons">
+            <table>
+                <tr>
+                    <th>Plussid</th>
+                    <th>Miinused</th>
+                </tr>
+                <tr>
+                    <td>Varajane vigade tuvastamine</td>
+                    <td>Pikk kompileerimisaeg</td>
+                </tr>
+                <tr>
+                    <td>Paremad tööriistad</td>
+                    <td>Ei toeta abstraktseid klasse</td>
+                </tr>
+                <tr>
+                    <td>Loetavus</td>
+                    <td>Võimalikud ühlduvusprobleemid</td>
+                </tr>
+                <tr>
+                    <td>Väiksem ökosüsteem</td>
+                    <td>Brown</td>
+                </tr>
+                <tr>
+                    <td>Platvormide ja brauseritevaheline ühilduvus</td>
+                    <td>Tüübimääratluste kvaliteet</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="separator">
+    <p>
+    <h1>Artur Müürsepp</h1>
+    PHP || The PHP Group || 8.3
+    </p>
+</div>
+<section id="arutur-section">
+    <link rel="stylesheet" href="artur.css">
+    <div>
+        <img src="data:image/png;base64,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" alt="">
+        <h3>Vahendi tüüp: programmeerimiskeel</h3>
+        <h3>Väljalaskeaeg: 	8 juuni 1995</h3>
+    </div>
+</section>
+
+<div class="separator">
+    <p>
+    <h1>Sten-Patrick Meerits</h1>
+    </p>
+</div>
+<section id="patrick-section">
+    <link rel="stylesheet" href="patrick.css">
+    <br>
+    <h1>Vim</h1>
+    <br>
+    <p>Vahendi nimi: Vim <br>
+        Vahendi tüüp: Tekstiredaktor <br>
+        Platvorm, väljalaskeaeg: Saadaval mitmele platvormile (Windows, macOS, Linux), esmakordselt välja antud 1991.
+        aastal.</p>
+    <p>Vim on võimas tekstiredaktor, mille eesmärk on pakkuda kasutajale tõhusat ja kohandatavat
+        tekstiredigeerimiskogemust. Vim on täielikult käsitsi juhitav ja seda saab kasutada nii käsurealt kui ka
+        graafiliselt.</p>
+    <p>Vimil on mitmeid võimalusi, mis muudavad teksti redigeerimise kiireks ja tõhusaks. Selle hulka kuuluvad käsurea
+        käskude kasutamine, makrod, automaatne täitmine, mitu akent ja vaadet, võimas otsimis- ja asendusfunktsioon ning
+        palju muud. Lisaks on Vim väga kohandatav, võimaldades kasutajatel luua oma kohandatud redigeerimiskeskkondi.
+    </p>
+    <table>
+        <tr>
+            <th>Kasu</th>
+            <th>Vastuargumendid</th>
+        </tr>
+        <tr>
+            <td>Võimas ja kohandatav</td>
+            <td>Järsk õppimiskõver algajatele</td>
+        </tr>
+        <tr>
+            <td>Käsurea juhitavus võimaldab kiiret ja tõhusat redigeerimist</td>
+            <td>Esialgu võib tunduda ebamugav või ebatavaline võrreldes graafiliste redaktoritega</td>
+        </tr>
+        <tr>
+            <td>Laialdased funktsioonid ja lisamoodulid</td>
+            <td>Mõned kasutajad eelistavad rohkem graafilisi redaktoreid</td>
+        </tr>
+    </table>
+    <p>Lugeja, kui soovid oma redigeerimisoskusi täiustada ja olla produktiivne tekstiredigeerimisel, siis Vim on
+        suurepärane valik. Kuigi alguses võib olla järsk õppimiskõver, tasub Vimiga tutvumine kindlasti ära, kuna see
+        võib
+        muuta teie redigeerimisprotsessi kiiremaks ja tõhusamaks.</p>
+    <p>Näide: Üks õpilane kasutas Vimi oma programmeerimisprojektis ja kiitis selle kiiret ja tõhusat
+        tekstiredigeerimiskogemust, mis aitas tal kiiremini kirjutada ja muuta koodi.</p>
+    <li>
+        Abimaterjalid:
+        <ul>
+            <li><a href="https://www.vim.org/">Vimi ametlik veebisait</a></li>
+            <li><a href="https://www.vim.org/docs.php">Vimi dokumentatsioon</a></li>
+            <li><a href="https://www.youtube.com/watch?v=IiwGbcd8S7I">Vimi kasutusjuhend algajatele</a></li>
+        </ul>
+    </li>
+    <li>Embeddi vastav video vahendi kasutusest: <iframe width="1280" height="720"
+            src="https://www.youtube.com/embed/-txKSRn0qeA?si=2SQkxkVG2DuPKoHZ" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+    </ul>
+
+</section>
+
+<div class="separator">
+    <p>
+        <h1>Sandra Veskimeister</h1>
+        || JavaScript || ECMAScript 2020
+    </p>
+</div>
+<div class="veskimeister">
+        <ul>
+            <li>Vahendi nimi: JavaScript</li>
+            <li>Vahendi tüüp: Programmeerimiskeel</li>
+            <li>Väljalaskeaeg: 1995.aastal</li>
+            <li>Keel on läbivalt objektorienteeritud: peaaegu kõik andmetüübid (numbrid, stringid, massiivid, funktsioonid) on objektid.</br>
+                Keeles on vaid üks numbriline andmetüüp: 64 bitine ujukomaarv. Täisarvutüüp puudub.</br>
+                Puuduvad klassid, objektide konstrueerimine ja ka pärilikkus toimub prototüüpide põhjal kasutades konstruktorfunktsioone.</br>
+                Objektid on lihtsad nimi-väärtus paaride kogud nagu Perli ja Ruby paisktabelid või Pythoni sõnaraamatud.</br>
+                Toetatud on kõrgemat järku funktsioonid ja sulundid.</br>
+                Puudub sisendi ja väljundi kontseptsioon, sest skriptimiskeelena on mõeldud jooksma teiste programmide sees.</br></li>
+            <li>Eelised:</li>
+            <div>
+                1. Suurem kiirus ja tõhusus</br>
+                2. Lihtsustatud arendusprotsess</br>
+                3. Pidevad värskendused</br>
+                4. Serveri koormuse vähendamine</br>
+                5. Sujuv koostalitlusvõime</br>
+            </div>
+            <li>Puudused:</li>
+            <div>
+                1. Kliendipoolne turvarisk</br>
+                2. Brauseritevahelised tõlgendamise erinevused</br>
+                3. JavaScripti koodi silumine ja tõrkeotsing võib olla keeruline.</br>
+            </div>
+                <li>Kust õppida JavaScripti:</li>
+                <div>
+                    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+                    <li><a href="https://www.codecademy.com/learn/introduction-to-javascript">õpi JavaScripti</a></li>
+                </div>
+                <li>JavaScript Tutorial video:</li>
+                <div>
+                    <li><a href="https://www.youtube.com/watch?v=SBmSRK3feww">JavaScript õppevideo</a></li>
+                </div>
+            </ul>
+        </div>
+    </body>
+        <h1>Jan-Kenyon Nõukas</h1>
+        PhpStorm || JetBrains || 2024.1
+    </p>
+    <li>Vahendi tüüp: Integreeritud arenduskeskkond (IDE)</li>
+    <li>Platvorm, väljalaskeaeg: Saadaval mitmetele platvormidele (Windows, macOS, Linux). Esialgne väljalase oli 3. märtsil 2010</li>
+    <li>Eesmärk: PhpStormi eesmärk on pakkuda täiustatud arendusvahendit PHP programmeerijatele, võimaldades neil tõhusalt luua, redigeerida, siluda ja hallata PHP-põhiseid projekte.</li>
+    <li>Võimalused:
+
+        Täpne PHP süntaksi esiletõstmine ja automaatne täiendamine.
+        Integreeritud silumise ja testimise vahendid.
+        Võimas refaktoreerimine ja koodi analüüs.
+        Sisseehitatud tugi PHP raamistikele nagu Symfony, Laravel jne.
+        Versioneerimissüsteemi integreerimine (nt Git, SVN).
+        Paindlik kohandatavus ja laiendatavus.</li>
+    <li>PhpStorm pakub laia valikut funktsioone ja tööriistu, mis võimaldavad tõhusat ja produktiivset PHP-arendust. Selle tugev süntaksi esiletõstmine, silumisvahendid ja integreeritus erinevate PHP-raamistikega teevad sellest suurepärase valiku nii algajatele kui ka kogenud programmeerijatele.</li>
+</div>
+<h1>PhpStorm</h1>
+<br>
+<div class="separator">
+    <p>
+        <h1>Henri Evert</h1>
+        || PyCharm ||
+    </p>
+</div>
+<section id="henri1">    
+<link rel="stylesheet" type="text/css" href="henri1.css">
+<h1 class="henri1">PyCharm</h1>
+
+<h2 class="henri2">Vahendi tüüp:</h2>
+<p class="henri3">Integreeritud arenduskeskkond (IDE)</p>
+
+<h2 class="henri2">Platvorm, väljalaskeaeg:</h2>
+<p class="henri3">Saadaval Windowsile, macOS-ile ja Linuxile. Esimene väljalase oli 2009. aastal.</p>
+
+<h2 class="henri2">Eesmärk:</h2>
+<p class="henri3">PyCharm on mõeldud Pythoni keele arendamiseks, pakkudes tõhusat ja intuitiivset keskkonda, mis võimaldab arendajatel luua, testida ja haldada Pythoni projekte.</p>
+
+<h2 class="henri2">Võimalused:</h2>
+<ul class="henri3">
+    <li>Täielikult varustatud integreeritud arenduskeskkond, mis hõlmab redigeerimist, silumist, testimist ja haldamist.</li>
+    <li>Tugev süntaksi esiletõstmine ja automaatne koodi täiendamine, mis parandab tootlikkust.</li>
+    <li>Integreeritud versioonihaldus (näiteks Git) ja virtuaalsete keskkondade haldamine.</li>
+    <li>Võimas silumisvahend, mis toetab sammu-sammu haaval läbivaatamist, muutujate jälgimist ja jälgitavate ekspresioonide hindamist.</li>
+    <li>Toetab erinevaid Pythoni raamistikke ja bibliograafiaid, nagu Django, Flask jne.</li>
+</ul>
+
+<h2 class="henri2">Kasuks ja vastu:</h2>
+<table class="henri4">
+    <tr>
+        <th>+</th>
+        <th>-</th>
+    </tr>
+    <tr>
+        <td>Integreeritud arenduskeskkond pakub tõhusust ja mugavust</td>
+        <td>Võib olla ülejõukäiv algajatele või neile, kes ei keskendu peamiselt Pythonile</td>
+    </tr>
+    <tr>
+        <td>Suurepärane silumistugi ja versioonihaldus</td>
+        <td>Vajab arvutiressursse, mis võib olla piiratud vanematel süsteemidel</td>
+    </tr>
+    <tr>
+        <td>Laialdane ühilduvus erinevate Pythoni raamistikega</td>
+        <td>Mõned arenenud funktsioonid võivad olla kogenematutele kasutajatele keerulised</td>
+    </tr>
+</table>
+
+<h2 class="henri2">Miks *lugeja* peaks seda kasutama:</h2>
+<p class="henri3">Kui oled Pythoni arendaja, otsid tõhusat ja paindlikku arenduskeskkonda ning soovid suurendada oma tootlikkust, siis PyCharm on sinu jaoks. Selle võimas silumistugi, integreeritud versioonihaldus ja laialdane raamistikutoetus muudavad selle suurepäraseks valikuks Pythoni projektide arendamisel.</p>
+
+<h2 class="henri2">Näide õpilase kasutamisest:</h2>
+<p class="henri3">Üks õpilane kasutas PyCharmi oma lõputöö kirjutamisel, mis hõlmas keerukate tehisintellekti algoritmide rakendamist Pythonis. PyCharmi tugev silumistugi aitas tal kiiresti leida ja parandada vigu ning suurendada tema projektide efektiivsust.</p>
+
+<h2 class="henri2">Abimaterjalid ja õppematerjalid:</h2>
+<ul class="henri3">
+    <li><a href="https://www.jetbrains.com/pycharm/documentation/">PyCharmi ametlik dokumentatsioon</a></li>
+    <li><a href="https://www.youtube.com/watch?v=hc50ALh_x5g">PyCharmi Tutorial</a></li>
+</ul>
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/hc50ALh_x5g" title="PyCharm Tutorial | Full Course in 2 Hours" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+</body>
+
+<div class="separator">
+    <p>
+        <h1>Kristo Kuurits</h1>
+        Eclipse
+    </p>
+</div>   
+<link rel="stylesheet" type="text/css" href=".css">
+<h1>Eclipse IDE</h1>
+
+<h2>Vahendi tüüp:</h2>
+<p>Integreeritud arenduskeskkond (IDE)</p>
+
+<h2>Platvorm, väljalaskeaeg:</h2>
+<p>Platvorm: Windows, macOS, Linux</br></p>
+<p>Väljalaskeaeg: Esimene versioon ilmus 7. november 2001, viimased versioonid uuendatakse regulaarselt, tavaliselt kord aastas.</p>
+
+<h2>Eesmärk:</h2>
+<p>Eclipse IDE eesmärk on pakkuda arendajatele võimas ja paindlik tööriist, mis toetab erinevaid programmeerimiskeeli ja arenduskeskkondi. Eclipse'i kaudu saavad arendajad luua, testida ja hallata oma tarkvaraprojekte tõhusalt ja tõrgeteta.</p>
+
+<h2>Võimalused:</h2>
+<ul>
+    <p>Mitmekeelse tugi: Eclipse toetab mitmeid programmeerimiskeeli nagu Java, C/C++, Python, PHP, JavaScript ja teised.<br></p>
+    <p>Debugeerimisvahendid: Võimaldab koodi sammhaaval läbi käia ja vigu tuvastada ning parandada.<br></p>
+    <p>Projektihaldus: Tugevad tööriistad projektide ja nende sõltuvuste haldamiseks.<br></p>
+    <p>Versioonikontrolli integratsioon: Toetab Git, SVN ja teisi versioonikontrolli süsteeme.<br></p>
+</ul>
+
+<h2>plussid ja miinused:</h2>
+
+<table>
+    <tr>
+        <th>plussid</th>
+        <th>miinused</th>
+    </tr>
+    <tr>
+        <td>Lai valik pluginaid ja laiendusi</td>
+        <td>Võib olla ressursimahukas ja aeglane</td>
+    </tr>
+    <tr>
+        <td>Tasuta ja avatud lähtekoodiga</td>
+        <td>Kasutajaliides võib tunduda keeruline algajatele</td>
+    </tr>
+    <tr>
+        <td>Tugev kogukond ja tugi</td>
+        <td>Suuremate projektide puhul võib esineda jõudlusprobleeme</td>
+    </tr>
+</table>
+
+
+<h2>Miks *lugeja* peaks seda kasutama:</h2>
+<p>Eclipse IDE on just sulle, kui otsid võimsat ja paindlikku arenduskeskkonda, mis toetab mitmesuguseid programmeerimiskeeli ja võimaldab sujuvat projektihaldust.</p>
+
+<h2>Näide õpilase kasutamisest:</h2>
+<p>Õpilane on Eclipse IDE abil loonud täisfunktsionaalse veebirakenduse, kasutades Java ja Spring Frameworki. Projekti raames kujundas ja implementeeris ta kasutajaliidese, andmebaasiga suhtlemise kihi ning lisas turvameetmed kasutajate autentimiseks ja autoriseerimiseks. Rakendus sisaldab ka integreeritud testimisvahendeid, mis võimaldavad pidevat integratsiooni ja tarnimist.</p>
+
+<h2>Abimaterjalid ja õppematerjalid:</h2>
+<ul>
+    <li><a href="https://eclipseide.org/">Eclipse IDE seletus</a></li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RJPL8oSYWGo?si=J6XAzBSQEd743ggx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></section>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+.game-section {
+    background-color: rgb(247, 186, 0);
+    width: 100vw !important;
+    color: white;
+    padding: 1em !important;
+    letter-spacing: 1px;
+}
+
+.game-section h2 {
+    text-transform: uppercase;
+}
+
+.game-link {
+    color: black;
+}
+
+.game-info-highlight {
+    color: red;
+}
+
+.description-p {
+    font-size: 1.1rem;
+}
+
+.wrap-p {
+    word-wrap: break-word;
+    white-space: pre;
+    margin: 0;
+}
+
+.hl2-title {
+    font-size: 2rem;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.steam-button {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: fit-content;
+    height: fit-content;
+    background-color: cyan;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    transition-duration: 200ms;
+}
+
+.steam-button:hover {
+    background-color: gold;
+}
+
+.steam-button:active {
+    background-color: navy;
+}
+
+
+.nirgi-separator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: gray;
+    color: white;
+}
+
+.nirgi-separator label {
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.vscode-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: sans-serif !important;
+    background-color: rgb(21, 43, 72);
+    color: orange;
+    padding: 1em;
+    letter-spacing: 1px;
+}
+
+.vscode-section h1, .vscode-section h2 {
+    font-family: sans-serif !important;
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.vscode-section .features-list li {
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.3rem;
+}
+
+.procon-table {
+    background-color: green;
+    width: 50%;
+    text-align: center;
+}
+
+
+.procon-table th {
+    background-color: purple;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.procon-table tr {
+    font-size: 1.5rem;
+}

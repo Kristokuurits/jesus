@@ -1,0 +1,9 @@
+#marken-section {
+    background-color: aquamarine;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#marken-section p, h2, li{
+    color: black;
+}

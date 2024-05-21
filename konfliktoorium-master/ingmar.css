@@ -1,0 +1,78 @@
+.game-box {
+    border: 2px solid #333; 
+    padding: 20px;
+    width: 500px; 
+    background-color: #f0f0f0; 
+    color: black; 
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.game-title {
+    color: red;
+}
+
+.game-desc {
+    margin-right: 20px;
+}
+
+.typescript-content {
+    background-color: white;
+    padding: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    overflow-y: scroll  !important;
+    scrollbar-width: none;
+    max-height: 600px;
+    color: black;
+}
+
+.typescript-title {
+    margin-top: -2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: -2em;
+    font-weight: bold;
+    font-size: 2em;
+    color: red;
+    text-align: center;
+}
+
+.typescript-header {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.typescript-header-info {
+    color: black;
+    max-height: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+    max-width: 20%;
+}
+
+.typescript-body-text {
+    font-size: 20px !important;
+    margin-top: 15px;
+}
+
+.typescript-body-text-title {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.typescript-pros-cons table {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(244, 241, 241);
+    margin-top: 50px;
+}
+
+.typescript-pros-cons th, td {
+    padding: 15px;
+  }
+

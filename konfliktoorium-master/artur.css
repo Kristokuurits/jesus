@@ -1,0 +1,24 @@
+#arturDiv {
+    background-color: #d8ccb4;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#arturSecondary {
+    color: #333;
+}
+
+#arturAlapealkirjad {
+    color: #555;
+}
+
+#arutur-section{
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+#pealkiriArtur{
+    font-size: 64px;
+}
